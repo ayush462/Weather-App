@@ -55,7 +55,7 @@ async function checkWeather(city) {
             errorElement.style.display = "none";
         } else {
             errorElement.style.display = "block";
-            errorElement.textContent = "City not found.";
+            errorElement.textContent = "seplling check kr ke aa pahale";
         }
     } catch (error) {
         console.error("Error fetching weather data:", error);
